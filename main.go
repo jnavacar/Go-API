@@ -10,15 +10,6 @@ import (
 	"time"
 )
 
-// "context"
-// "fmt"
-// "log"
-// "time"
-
-// "go.mongodb.org/mongo-driver/bson"
-// "go.mongodb.org/mongo-driver/mongo"
-// "go.mongodb.org/mongo-driver/mongo/options"
-
 func main() {
 	l := log.New(os.Stdout, "product-api", log.LstdFlags)
 	ph := handlers.NewProducts(l)
